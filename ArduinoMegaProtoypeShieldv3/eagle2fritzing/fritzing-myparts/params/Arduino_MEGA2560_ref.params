@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<board-params board='Arduino_MEGA2560_ref' include-vias='true' shrink-holes-factor='1.0' gender='male' >
+<!-- please fill in the author, title, description, tags, and properties elements-->
+<author>John</author>
+<title></title>
+<url></url>
+<description></description>
+<tags>
+<!-- <tag>sample tag</tag> -->
+</tags>
+<properties>
+<!-- <property name='family'>sample family</property> -->
+</properties>
+<breadboard breadboard-color='#014cb1'>
+<extra-layers>
+<!-- to add extra layers to the breadboard,
+uncomment the following <layer> elements,
+and change the 'number' attribute to the appropriate eagle layer number.
+You can add as many <layer> elements as you like -->
+<layer number='21' />
+<!-- <layer number='1' /> -->
+<!-- <layer number='29' /> -->
+</extra-layers>
+<includes>
+<!-- to include other svgs in the breadboard,
+uncomment the following <include> elements,
+and change the src and coordinates (coordinates without units are treated as 90 dpi px).
+You can add as many <include> elements as you like -->
+<!-- <include src='full path name to something.svg' x='0in' y='0in'/> -->
+</includes>
+<!-- Add 'nudges' to modify how packages and texts are displayed  -->
+<nudges>
+<!-- <nudge package='jstph2' y='0.25mm' /> -->
+</nudges>
+</breadboard>
+<connectors>
+<!-- Add 'rename' elements to modify how signals are named in fritzing  -->
+<renames> -->
+<!-- <rename signal='FROM' to='TO' package='PACKAGE' element='ELEMENT' /> -->
+</renames>
+<power>
+<!-- left to right -->
+<connector signal='+5V' id='221' package='2X03' element='ICSP' name='2' type='pad'/>
+<connector signal='+5V' id='227' package='2X03' element='ICSP1' name='2' type='pad'/>
+<connector signal='+5V' id='232' package='1X01' element='JP1' name='1' type='pad'/>
+<connector signal='+5V' id='233' package='1X01' element='JP2' name='1' type='pad'/>
+<connector signal='+3V3' id='247' package='1X06' element='POWER' name='2' type='pad'/>
+<connector signal='+5V' id='248' package='1X06' element='POWER' name='3' type='pad'/>
+<connector signal='VIN' id='251' package='1X06' element='POWER' name='6' type='pad'/>
+</power>
+<ground>
+<!-- left to right -->
+<connector signal='GND' id='225' package='2X03' element='ICSP' name='6' type='pad'/>
+<connector signal='GND' id='231' package='2X03' element='ICSP1' name='6' type='pad'/>
+<connector signal='GND' id='234' package='1X01' element='JP3' name='1' type='pad'/>
+<connector signal='GND' id='235' package='1X01' element='JP4' name='1' type='pad'/>
+<connector signal='GND' id='249' package='1X06' element='POWER' name='4' type='pad'/>
+<connector signal='GND' id='250' package='1X06' element='POWER' name='5' type='pad'/>
+<connector signal='GND' id='258' package='1X08' element='PWMH' name='7' type='pad'/>
+<connector signal='GND' id='338' package='DC-21MM' element='X1' name='1' type='pad'/>
+<connector signal='GND' id='340' package='DC-21MM' element='X1' name='3' type='pad'/>
+</ground>
+<left>
+<!-- top to bottom -->
+<connector signal='ADC0' id='13' package='1X08' element='ADCL' name='1' type='pad'/>
+<connector signal='ADC1' id='14' package='1X08' element='ADCL' name='2' type='pad'/>
+<connector signal='ADC10' id='7' package='1X08' element='ADCH' name='3' type='pad'/>
+<connector signal='ADC11' id='8' package='1X08' element='ADCH' name='4' type='pad'/>
+<connector signal='ADC12' id='9' package='1X08' element='ADCH' name='5' type='pad'/>
+<connector signal='ADC13' id='10' package='1X08' element='ADCH' name='6' type='pad'/>
+<connector signal='ADC14' id='11' package='1X08' element='ADCH' name='7' type='pad'/>
+<connector signal='ADC15' id='12' package='1X08' element='ADCH' name='8' type='pad'/>
+<connector signal='ADC2' id='15' package='1X08' element='ADCL' name='3' type='pad'/>
+<connector signal='ADC3' id='16' package='1X08' element='ADCL' name='4' type='pad'/>
+<connector signal='ADC4' id='17' package='1X08' element='ADCL' name='5' type='pad'/>
+<connector signal='ADC5' id='18' package='1X08' element='ADCL' name='6' type='pad'/>
+<connector signal='ADC6' id='19' package='1X08' element='ADCL' name='7' type='pad'/>
+<connector signal='ADC7' id='20' package='1X08' element='ADCL' name='8' type='pad'/>
+<connector signal='ADC8' id='5' package='1X08' element='ADCH' name='1' type='pad'/>
+<connector signal='ADC9' id='6' package='1X08' element='ADCH' name='2' type='pad'/>
+<connector signal='AREF' id='259' package='1X08' element='PWMH' name='8' type='pad'/>
+<connector signal='D+' id='343' package='PN61729' element='X2' name='3' type='pad'/>
+<connector signal='D-' id='342' package='PN61729' element='X2' name='2' type='pad'/>
+<connector signal='MISO2' id='226' package='2X03' element='ICSP1' name='1' type='pad'/>
+<connector signal='MOSI2' id='229' package='2X03' element='ICSP1' name='4' type='pad'/>
+<connector signal='PA0' id='362' package='2X08' element='XIOH' name='16' type='pad'/>
+<connector signal='PA1' id='361' package='2X08' element='XIOH' name='15' type='pad'/>
+<connector signal='PA2' id='360' package='2X08' element='XIOH' name='14' type='pad'/>
+<connector signal='PA3' id='359' package='2X08' element='XIOH' name='13' type='pad'/>
+<connector signal='PA4' id='358' package='2X08' element='XIOH' name='12' type='pad'/>
+<connector signal='PA5' id='357' package='2X08' element='XIOH' name='11' type='pad'/>
+<connector signal='PA6' id='356' package='2X08' element='XIOH' name='10' type='pad'/>
+<connector signal='PA7' id='355' package='2X08' element='XIOH' name='9' type='pad'/>
+<connector signal='PB0' id='363' package='2X08' element='XIOL' name='1' type='pad'/>
+<connector signal='PB1' id='364' package='2X08' element='XIOL' name='2' type='pad'/>
+<connector signal='PB1' id='222' package='2X03' element='ICSP' name='3' type='pad'/>
+<connector signal='PB2' id='223' package='2X03' element='ICSP' name='4' type='pad'/>
+<connector signal='PB2' id='365' package='2X08' element='XIOL' name='3' type='pad'/>
+<connector signal='PB3' id='366' package='2X08' element='XIOL' name='4' type='pad'/>
+<connector signal='PB3' id='220' package='2X03' element='ICSP' name='1' type='pad'/>
+<connector signal='PB4' id='254' package='1X08' element='PWMH' name='3' type='pad'/>
+<connector signal='PB5' id='255' package='1X08' element='PWMH' name='4' type='pad'/>
+<connector signal='PB6' id='256' package='1X08' element='PWMH' name='5' type='pad'/>
+<connector signal='PB7' id='257' package='1X08' element='PWMH' name='6' type='pad'/>
+<connector signal='PC0' id='347' package='2X08' element='XIOH' name='1' type='pad'/>
+<connector signal='PC1' id='348' package='2X08' element='XIOH' name='2' type='pad'/>
+<connector signal='PC2' id='349' package='2X08' element='XIOH' name='3' type='pad'/>
+<connector signal='PC3' id='350' package='2X08' element='XIOH' name='4' type='pad'/>
+<connector signal='PC4' id='351' package='2X08' element='XIOH' name='5' type='pad'/>
+</left>
+<right>
+<!-- top to bottom -->
+<connector signal='XVCC' id='341' package='PN61729' element='X2' name='1' type='pad'/>
+<connector signal='XTAL2' id='270' package='QS' element='Q2' name='1' type='pad'/>
+<connector signal='XTAL1' id='271' package='QS' element='Q2' name='2' type='pad'/>
+<connector signal='XT2' id='268' package='QS' element='Q1' name='1' type='pad'/>
+<connector signal='XT1' id='269' package='QS' element='Q1' name='2' type='pad'/>
+<connector signal='USHIELD' id='346' package='PN61729' element='X2' name='P$2' type='pad'/>
+<connector signal='USHIELD' id='345' package='PN61729' element='X2' name='P$1' type='pad'/>
+<connector signal='UGND' id='344' package='PN61729' element='X2' name='4' type='pad'/>
+<connector signal='TXD3' id='62' package='1X08' element='COMMUNICATION' name='8' type='pad'/>
+<connector signal='TXD2' id='60' package='1X08' element='COMMUNICATION' name='6' type='pad'/>
+<connector signal='TXD1' id='58' package='1X08' element='COMMUNICATION' name='4' type='pad'/>
+<connector signal='SDA' id='56' package='1X08' element='COMMUNICATION' name='2' type='pad'/>
+<connector signal='SCL' id='55' package='1X08' element='COMMUNICATION' name='1' type='pad'/>
+<connector signal='SCK2' id='228' package='2X03' element='ICSP1' name='3' type='pad'/>
+<connector signal='RXD3' id='61' package='1X08' element='COMMUNICATION' name='7' type='pad'/>
+<connector signal='RXD2' id='59' package='1X08' element='COMMUNICATION' name='5' type='pad'/>
+<connector signal='RXD1' id='57' package='1X08' element='COMMUNICATION' name='3' type='pad'/>
+<connector signal='RESET2' id='230' package='2X03' element='ICSP1' name='5' type='pad'/>
+<connector signal='RESET' id='224' package='2X03' element='ICSP' name='5' type='pad'/>
+<connector signal='RESET' id='246' package='1X06' element='POWER' name='1' type='pad'/>
+<connector signal='PWRIN' id='339' package='DC-21MM' element='X1' name='2' type='pad'/>
+<connector signal='PL7' id='374' package='2X08' element='XIOL' name='12' type='pad'/>
+<connector signal='PL6' id='373' package='2X08' element='XIOL' name='11' type='pad'/>
+<connector signal='PL5' id='372' package='2X08' element='XIOL' name='10' type='pad'/>
+<connector signal='PL4' id='371' package='2X08' element='XIOL' name='9' type='pad'/>
+<connector signal='PL3' id='370' package='2X08' element='XIOL' name='8' type='pad'/>
+<connector signal='PL2' id='369' package='2X08' element='XIOL' name='7' type='pad'/>
+<connector signal='PL1' id='368' package='2X08' element='XIOL' name='6' type='pad'/>
+<connector signal='PL0' id='367' package='2X08' element='XIOL' name='5' type='pad'/>
+<connector signal='PH6' id='253' package='1X08' element='PWMH' name='2' type='pad'/>
+<connector signal='PH5' id='252' package='1X08' element='PWMH' name='1' type='pad'/>
+<connector signal='PH4' id='267' package='1X08' element='PWML' name='8' type='pad'/>
+<connector signal='PH3' id='266' package='1X08' element='PWML' name='7' type='pad'/>
+<connector signal='PG5' id='264' package='1X08' element='PWML' name='5' type='pad'/>
+<connector signal='PG2' id='377' package='2X08' element='XIOL' name='15' type='pad'/>
+<connector signal='PG1' id='376' package='2X08' element='XIOL' name='14' type='pad'/>
+<connector signal='PG0' id='375' package='2X08' element='XIOL' name='13' type='pad'/>
+<connector signal='PE5' id='263' package='1X08' element='PWML' name='4' type='pad'/>
+<connector signal='PE4' id='262' package='1X08' element='PWML' name='3' type='pad'/>
+<connector signal='PE3' id='265' package='1X08' element='PWML' name='6' type='pad'/>
+<connector signal='PE1' id='261' package='1X08' element='PWML' name='2' type='pad'/>
+<connector signal='PE0' id='260' package='1X08' element='PWML' name='1' type='pad'/>
+<connector signal='PD7' id='378' package='2X08' element='XIOL' name='16' type='pad'/>
+<connector signal='PC7' id='354' package='2X08' element='XIOH' name='8' type='pad'/>
+<connector signal='PC6' id='353' package='2X08' element='XIOH' name='7' type='pad'/>
+<connector signal='PC5' id='352' package='2X08' element='XIOH' name='6' type='pad'/>
+</right>
+<mnt>
+<!-- mounting holes -->
+</mnt>
+<unused>
+<connector signal='RESET' id='21' package='C0603-ROUND' element='C1' name='1' type='smd'/>
+<connector signal='GND' id='22' package='C0603-ROUND' element='C1' name='2' type='smd'/>
+<connector signal='VIN' id='23' package='C0603-ROUND' element='C2' name='1' type='smd'/>
+<connector signal='GND' id='24' package='C0603-ROUND' element='C2' name='2' type='smd'/>
+<connector signal='AREF' id='25' package='C0603-ROUND' element='C3' name='1' type='smd'/>
+<connector signal='GND' id='26' package='C0603-ROUND' element='C3' name='2' type='smd'/>
+<connector signal='+5V' id='27' package='C0603-ROUND' element='C4' name='1' type='smd'/>
+<connector signal='GND' id='28' package='C0603-ROUND' element='C4' name='2' type='smd'/>
+<connector signal='+5V' id='29' package='C0603-ROUND' element='C5' name='1' type='smd'/>
+<connector signal='GND' id='30' package='C0603-ROUND' element='C5' name='2' type='smd'/>
+<connector signal='+5V' id='31' package='C0603-ROUND' element='C6' name='1' type='smd'/>
+<connector signal='GND' id='32' package='C0603-ROUND' element='C6' name='2' type='smd'/>
+<connector signal='DTR' id='33' package='C0603-ROUND' element='C7' name='1' type='smd'/>
+<connector signal='RESET' id='34' package='C0603-ROUND' element='C7' name='2' type='smd'/>
+<connector signal='USBVCC' id='35' package='C0603' element='C8' name='1' type='smd'/>
+<connector signal='GND' id='36' package='C0603' element='C8' name='2' type='smd'/>
+<connector signal='+5V' id='37' package='C0603-ROUND' element='C9' name='1' type='smd'/>
+<connector signal='GND' id='38' package='C0603-ROUND' element='C9' name='2' type='smd'/>
+<connector signal='VUCAP' id='39' package='C0603-ROUND' element='C10' name='1' type='smd'/>
+<connector signal='UGND' id='40' package='C0603-ROUND' element='C10' name='2' type='smd'/>
+<connector signal='GND' id='41' package='C0603' element='C11' name='1' type='smd'/>
+<connector signal='+5V' id='42' package='C0603' element='C11' name='2' type='smd'/>
+<connector signal='GND' id='43' package='C0603-ROUND' element='C12' name='1' type='smd'/>
+<connector signal='CMP' id='44' package='C0603-ROUND' element='C12' name='2' type='smd'/>
+<connector signal='GND' id='45' package='C0603-ROUND' element='C13' name='1' type='smd'/>
+<connector signal='+3V3' id='46' package='C0603-ROUND' element='C13' name='2' type='smd'/>
+<connector signal='GND' id='47' package='C0603-ROUND' element='C14' name='1' type='smd'/>
+<connector signal='XTAL1' id='48' package='C0603-ROUND' element='C14' name='2' type='smd'/>
+<connector signal='GND' id='49' package='C0603-ROUND' element='C15' name='1' type='smd'/>
+<connector signal='XTAL2' id='50' package='C0603-ROUND' element='C15' name='2' type='smd'/>
+<connector signal='XT1' id='51' package='C0603-ROUND' element='C16' name='1' type='smd'/>
+<connector signal='GND' id='52' package='C0603-ROUND' element='C16' name='2' type='smd'/>
+<connector signal='XT2' id='53' package='C0603-ROUND' element='C17' name='1' type='smd'/>
+<connector signal='GND' id='54' package='C0603-ROUND' element='C17' name='2' type='smd'/>
+<connector signal='PWRIN' id='63' package='SMB' element='D1' name='A' type='smd'/>
+<connector signal='VIN' id='64' package='SMB' element='D1' name='C' type='smd'/>
+<connector signal='USBVCC' id='65' package='L1812' element='F1' name='1' type='smd'/>
+<connector signal='XVCC' id='66' package='L1812' element='F1' name='2' type='smd'/>
+<connector signal='GND' id='67' package='SOT223' element='IC1' name='1' type='smd'/>
+<connector signal='+5V' id='68' package='SOT223' element='IC1' name='2' type='smd'/>
+<connector signal='VIN' id='69' package='SOT223' element='IC1' name='3' type='smd'/>
+<connector signal='+5V' id='70' package='SOT223' element='IC1' name='4' type='smd'/>
+<connector signal='GND' id='71' package='DPACK' element='IC2' name='1' type='smd'/>
+<connector signal='+5V' id='72' package='DPACK' element='IC2' name='2' type='smd'/>
+<connector signal='VIN' id='73' package='DPACK' element='IC2' name='3' type='smd'/>
+<connector signal='PG5' id='74' package='TQFP100' element='IC3' name='1' type='smd'/>
+<connector signal='PE0' id='75' package='TQFP100' element='IC3' name='2' type='smd'/>
+<connector signal='PE1' id='76' package='TQFP100' element='IC3' name='3' type='smd'/>
+<connector signal='' id='77' package='TQFP100' element='IC3' name='4' type='smd'/>
+<connector signal='PE3' id='78' package='TQFP100' element='IC3' name='5' type='smd'/>
+<connector signal='PE4' id='79' package='TQFP100' element='IC3' name='6' type='smd'/>
+<connector signal='PE5' id='80' package='TQFP100' element='IC3' name='7' type='smd'/>
+<connector signal='' id='81' package='TQFP100' element='IC3' name='8' type='smd'/>
+<connector signal='' id='82' package='TQFP100' element='IC3' name='9' type='smd'/>
+<connector signal='+5V' id='83' package='TQFP100' element='IC3' name='10' type='smd'/>
+<connector signal='GND' id='84' package='TQFP100' element='IC3' name='11' type='smd'/>
+<connector signal='RXD2' id='85' package='TQFP100' element='IC3' name='12' type='smd'/>
+<connector signal='TXD2' id='86' package='TQFP100' element='IC3' name='13' type='smd'/>
+<connector signal='' id='87' package='TQFP100' element='IC3' name='14' type='smd'/>
+<connector signal='PH3' id='88' package='TQFP100' element='IC3' name='15' type='smd'/>
+<connector signal='PH4' id='89' package='TQFP100' element='IC3' name='16' type='smd'/>
+<connector signal='PH5' id='90' package='TQFP100' element='IC3' name='17' type='smd'/>
+<connector signal='PH6' id='91' package='TQFP100' element='IC3' name='18' type='smd'/>
+<connector signal='PB0' id='92' package='TQFP100' element='IC3' name='19' type='smd'/>
+<connector signal='PB1' id='93' package='TQFP100' element='IC3' name='20' type='smd'/>
+<connector signal='PB2' id='94' package='TQFP100' element='IC3' name='21' type='smd'/>
+<connector signal='PB3' id='95' package='TQFP100' element='IC3' name='22' type='smd'/>
+<connector signal='PB4' id='96' package='TQFP100' element='IC3' name='23' type='smd'/>
+<connector signal='PB5' id='97' package='TQFP100' element='IC3' name='24' type='smd'/>
+<connector signal='PB6' id='98' package='TQFP100' element='IC3' name='25' type='smd'/>
+<connector signal='PB7' id='99' package='TQFP100' element='IC3' name='26' type='smd'/>
+<connector signal='' id='100' package='TQFP100' element='IC3' name='27' type='smd'/>
+<connector signal='' id='101' package='TQFP100' element='IC3' name='28' type='smd'/>
+<connector signal='' id='102' package='TQFP100' element='IC3' name='29' type='smd'/>
+<connector signal='RESET' id='103' package='TQFP100' element='IC3' name='30' type='smd'/>
+<connector signal='+5V' id='104' package='TQFP100' element='IC3' name='31' type='smd'/>
+<connector signal='GND' id='105' package='TQFP100' element='IC3' name='32' type='smd'/>
+<connector signal='XTAL2' id='106' package='TQFP100' element='IC3' name='33' type='smd'/>
+<connector signal='XTAL1R' id='107' package='TQFP100' element='IC3' name='34' type='smd'/>
+<connector signal='PL0' id='108' package='TQFP100' element='IC3' name='35' type='smd'/>
+<connector signal='PL1' id='109' package='TQFP100' element='IC3' name='36' type='smd'/>
+<connector signal='PL2' id='110' package='TQFP100' element='IC3' name='37' type='smd'/>
+<connector signal='PL3' id='111' package='TQFP100' element='IC3' name='38' type='smd'/>
+<connector signal='PL4' id='112' package='TQFP100' element='IC3' name='39' type='smd'/>
+<connector signal='PL5' id='113' package='TQFP100' element='IC3' name='40' type='smd'/>
+<connector signal='PL6' id='114' package='TQFP100' element='IC3' name='41' type='smd'/>
+<connector signal='PL7' id='115' package='TQFP100' element='IC3' name='42' type='smd'/>
+<connector signal='SCL' id='116' package='TQFP100' element='IC3' name='43' type='smd'/>
+<connector signal='SDA' id='117' package='TQFP100' element='IC3' name='44' type='smd'/>
+<connector signal='RXD1' id='118' package='TQFP100' element='IC3' name='45' type='smd'/>
+<connector signal='TXD1' id='119' package='TQFP100' element='IC3' name='46' type='smd'/>
+<connector signal='' id='120' package='TQFP100' element='IC3' name='47' type='smd'/>
+<connector signal='' id='121' package='TQFP100' element='IC3' name='48' type='smd'/>
+<connector signal='' id='122' package='TQFP100' element='IC3' name='49' type='smd'/>
+<connector signal='PD7' id='123' package='TQFP100' element='IC3' name='50' type='smd'/>
+<connector signal='PG0' id='124' package='TQFP100' element='IC3' name='51' type='smd'/>
+<connector signal='PG1' id='125' package='TQFP100' element='IC3' name='52' type='smd'/>
+<connector signal='PC0' id='126' package='TQFP100' element='IC3' name='53' type='smd'/>
+<connector signal='PC1' id='127' package='TQFP100' element='IC3' name='54' type='smd'/>
+<connector signal='PC2' id='128' package='TQFP100' element='IC3' name='55' type='smd'/>
+<connector signal='PC3' id='129' package='TQFP100' element='IC3' name='56' type='smd'/>
+<connector signal='PC4' id='130' package='TQFP100' element='IC3' name='57' type='smd'/>
+<connector signal='PC5' id='131' package='TQFP100' element='IC3' name='58' type='smd'/>
+<connector signal='PC6' id='132' package='TQFP100' element='IC3' name='59' type='smd'/>
+<connector signal='PC7' id='133' package='TQFP100' element='IC3' name='60' type='smd'/>
+<connector signal='+5V' id='134' package='TQFP100' element='IC3' name='61' type='smd'/>
+<connector signal='GND' id='135' package='TQFP100' element='IC3' name='62' type='smd'/>
+<connector signal='RXD3' id='136' package='TQFP100' element='IC3' name='63' type='smd'/>
+<connector signal='TXD3' id='137' package='TQFP100' element='IC3' name='64' type='smd'/>
+<connector signal='' id='138' package='TQFP100' element='IC3' name='65' type='smd'/>
+<connector signal='' id='139' package='TQFP100' element='IC3' name='66' type='smd'/>
+<connector signal='' id='140' package='TQFP100' element='IC3' name='67' type='smd'/>
+<connector signal='' id='141' package='TQFP100' element='IC3' name='68' type='smd'/>
+<connector signal='' id='142' package='TQFP100' element='IC3' name='69' type='smd'/>
+<connector signal='PG2' id='143' package='TQFP100' element='IC3' name='70' type='smd'/>
+<connector signal='PA7' id='144' package='TQFP100' element='IC3' name='71' type='smd'/>
+<connector signal='PA6' id='145' package='TQFP100' element='IC3' name='72' type='smd'/>
+<connector signal='PA5' id='146' package='TQFP100' element='IC3' name='73' type='smd'/>
+<connector signal='PA4' id='147' package='TQFP100' element='IC3' name='74' type='smd'/>
+<connector signal='PA3' id='148' package='TQFP100' element='IC3' name='75' type='smd'/>
+<connector signal='PA2' id='149' package='TQFP100' element='IC3' name='76' type='smd'/>
+<connector signal='PA1' id='150' package='TQFP100' element='IC3' name='77' type='smd'/>
+<connector signal='PA0' id='151' package='TQFP100' element='IC3' name='78' type='smd'/>
+<connector signal='' id='152' package='TQFP100' element='IC3' name='79' type='smd'/>
+<connector signal='+5V' id='153' package='TQFP100' element='IC3' name='80' type='smd'/>
+<connector signal='GND' id='154' package='TQFP100' element='IC3' name='81' type='smd'/>
+<connector signal='ADC15' id='155' package='TQFP100' element='IC3' name='82' type='smd'/>
+<connector signal='ADC14' id='156' package='TQFP100' element='IC3' name='83' type='smd'/>
+<connector signal='ADC13' id='157' package='TQFP100' element='IC3' name='84' type='smd'/>
+<connector signal='ADC12' id='158' package='TQFP100' element='IC3' name='85' type='smd'/>
+<connector signal='ADC11' id='159' package='TQFP100' element='IC3' name='86' type='smd'/>
+<connector signal='ADC10' id='160' package='TQFP100' element='IC3' name='87' type='smd'/>
+<connector signal='ADC9' id='161' package='TQFP100' element='IC3' name='88' type='smd'/>
+<connector signal='ADC8' id='162' package='TQFP100' element='IC3' name='89' type='smd'/>
+<connector signal='ADC7' id='163' package='TQFP100' element='IC3' name='90' type='smd'/>
+<connector signal='ADC6' id='164' package='TQFP100' element='IC3' name='91' type='smd'/>
+<connector signal='ADC5' id='165' package='TQFP100' element='IC3' name='92' type='smd'/>
+<connector signal='ADC4' id='166' package='TQFP100' element='IC3' name='93' type='smd'/>
+<connector signal='ADC3' id='167' package='TQFP100' element='IC3' name='94' type='smd'/>
+<connector signal='ADC2' id='168' package='TQFP100' element='IC3' name='95' type='smd'/>
+<connector signal='ADC1' id='169' package='TQFP100' element='IC3' name='96' type='smd'/>
+<connector signal='ADC0' id='170' package='TQFP100' element='IC3' name='97' type='smd'/>
+<connector signal='AREF' id='171' package='TQFP100' element='IC3' name='98' type='smd'/>
+<connector signal='GND' id='172' package='TQFP100' element='IC3' name='99' type='smd'/>
+<connector signal='+5V' id='173' package='TQFP100' element='IC3' name='100' type='smd'/>
+<connector signal='XT1R' id='174' package='QFN32' element='IC4' name='1' type='smd'/>
+<connector signal='XT2' id='175' package='QFN32' element='IC4' name='2' type='smd'/>
+<connector signal='GND' id='176' package='QFN32' element='IC4' name='3' type='smd'/>
+<connector signal='+5V' id='177' package='QFN32' element='IC4' name='4' type='smd'/>
+<connector signal='' id='178' package='QFN32' element='IC4' name='5' type='smd'/>
+<connector signal='' id='179' package='QFN32' element='IC4' name='6' type='smd'/>
+<connector signal='' id='180' package='QFN32' element='IC4' name='7' type='smd'/>
+<connector signal='M8TXD' id='181' package='QFN32' element='IC4' name='8' type='smd'/>
+<connector signal='M8RXD' id='182' package='QFN32' element='IC4' name='9' type='smd'/>
+<connector signal='RXL' id='183' package='QFN32' element='IC4' name='10' type='smd'/>
+<connector signal='TXL' id='184' package='QFN32' element='IC4' name='11' type='smd'/>
+<connector signal='' id='185' package='QFN32' element='IC4' name='12' type='smd'/>
+<connector signal='DTR' id='186' package='QFN32' element='IC4' name='13' type='smd'/>
+<connector signal='' id='187' package='QFN32' element='IC4' name='14' type='smd'/>
+<connector signal='SCK2' id='188' package='QFN32' element='IC4' name='15' type='smd'/>
+<connector signal='MOSI2' id='189' package='QFN32' element='IC4' name='16' type='smd'/>
+<connector signal='MISO2' id='190' package='QFN32' element='IC4' name='17' type='smd'/>
+<connector signal='' id='191' package='QFN32' element='IC4' name='18' type='smd'/>
+<connector signal='' id='192' package='QFN32' element='IC4' name='19' type='smd'/>
+<connector signal='' id='193' package='QFN32' element='IC4' name='20' type='smd'/>
+<connector signal='' id='194' package='QFN32' element='IC4' name='21' type='smd'/>
+<connector signal='' id='195' package='QFN32' element='IC4' name='22' type='smd'/>
+<connector signal='' id='196' package='QFN32' element='IC4' name='23' type='smd'/>
+<connector signal='RESET2' id='197' package='QFN32' element='IC4' name='24' type='smd'/>
+<connector signal='' id='198' package='QFN32' element='IC4' name='25' type='smd'/>
+<connector signal='' id='199' package='QFN32' element='IC4' name='26' type='smd'/>
+<connector signal='VUCAP' id='200' package='QFN32' element='IC4' name='27' type='smd'/>
+<connector signal='UGND' id='201' package='QFN32' element='IC4' name='28' type='smd'/>
+<connector signal='RD+' id='202' package='QFN32' element='IC4' name='29' type='smd'/>
+<connector signal='RD-' id='203' package='QFN32' element='IC4' name='30' type='smd'/>
+<connector signal='USBVCC' id='204' package='QFN32' element='IC4' name='31' type='smd'/>
+<connector signal='+5V' id='205' package='QFN32' element='IC4' name='32' type='smd'/>
+<connector signal='GND' id='206' package='QFN32' element='IC4' name='EXP' type='smd'/>
+<connector signal='' id='207' package='SO08' element='IC5' name='1' type='smd'/>
+<connector signal='GND' id='208' package='SO08' element='IC5' name='2' type='smd'/>
+<connector signal='GND' id='209' package='SO08' element='IC5' name='3' type='smd'/>
+<connector signal='GND' id='210' package='SO08' element='IC5' name='4' type='smd'/>
+<connector signal='CMP' id='211' package='SO08' element='IC5' name='5' type='smd'/>
+<connector signal='+3V3' id='212' package='SO08' element='IC5' name='6' type='smd'/>
+<connector signal='GATE_CMD' id='213' package='SO08' element='IC5' name='7' type='smd'/>
+<connector signal='+5V' id='214' package='SO08' element='IC5' name='8' type='smd'/>
+<connector signal='+5V' id='215' package='SOT23-DBV' element='IC6' name='1' type='smd'/>
+<connector signal='GND' id='216' package='SOT23-DBV' element='IC6' name='2' type='smd'/>
+<connector signal='+5V' id='217' package='SOT23-DBV' element='IC6' name='3' type='smd'/>
+<connector signal='' id='218' package='SOT23-DBV' element='IC6' name='4' type='smd'/>
+<connector signal='+3V3' id='219' package='SOT23-DBV' element='IC6' name='5' type='smd'/>
+<connector signal='N$2' id='236' package='CHIP-LED0805' element='L' name='A' type='smd'/>
+<connector signal='GND' id='237' package='CHIP-LED0805' element='L' name='C' type='smd'/>
+<connector signal='UGND' id='238' package='0805' element='L1' name='1' type='smd'/>
+<connector signal='USHIELD' id='239' package='0805' element='L1' name='2' type='smd'/>
+<connector signal='N$3' id='240' package='CHIP-LED0805' element='ON' name='A' type='smd'/>
+<connector signal='GND' id='241' package='CHIP-LED0805' element='ON' name='C' type='smd'/>
+<connector signal='VIN' id='242' package='PANASONIC_D' element='PC1' name='+' type='smd'/>
+<connector signal='GND' id='243' package='PANASONIC_D' element='PC1' name='-' type='smd'/>
+<connector signal='+5V' id='244' package='PANASONIC_D' element='PC2' name='+' type='smd'/>
+<connector signal='GND' id='245' package='PANASONIC_D' element='PC2' name='-' type='smd'/>
+<connector signal='XTAL1' id='272' package='R0603-ROUND' element='R1' name='1' type='smd'/>
+<connector signal='XTAL2' id='273' package='R0603-ROUND' element='R1' name='2' type='smd'/>
+<connector signal='XT1' id='274' package='R0603-ROUND' element='R2' name='1' type='smd'/>
+<connector signal='XT2' id='275' package='R0603-ROUND' element='R2' name='2' type='smd'/>
+<connector signal='XTAL1R' id='276' package='R0603-ROUND' element='R3' name='1' type='smd'/>
+<connector signal='XTAL1' id='277' package='R0603-ROUND' element='R3' name='2' type='smd'/>
+<connector signal='XT1R' id='278' package='R0603-ROUND' element='R4' name='1' type='smd'/>
+<connector signal='XT1' id='279' package='R0603-ROUND' element='R4' name='2' type='smd'/>
+<connector signal='GND' id='280' package='TS42' element='RESET' name='1' type='smd'/>
+<connector signal='GND' id='281' package='TS42' element='RESET' name='2' type='smd'/>
+<connector signal='RESET' id='282' package='TS42' element='RESET' name='3' type='smd'/>
+<connector signal='RESET' id='283' package='TS42' element='RESET' name='4' type='smd'/>
+<connector signal='5-GND' id='284' package='TS42' element='RESET' name='5' type='smd'/>
+<connector signal='RESET' id='285' package='SJ' element='RESET-EN' name='1' type='smd'/>
+<connector signal='RESET' id='286' package='SJ' element='RESET-EN' name='2' type='smd'/>
+<connector signal='RESET' id='287' package='CAT16' element='RN1' name='1' type='smd'/>
+<connector signal='SCL' id='288' package='CAT16' element='RN1' name='2' type='smd'/>
+<connector signal='SDA' id='289' package='CAT16' element='RN1' name='3' type='smd'/>
+<connector signal='' id='290' package='CAT16' element='RN1' name='4' type='smd'/>
+<connector signal='' id='291' package='CAT16' element='RN1' name='5' type='smd'/>
+<connector signal='+5V' id='292' package='CAT16' element='RN1' name='6' type='smd'/>
+<connector signal='+5V' id='293' package='CAT16' element='RN1' name='7' type='smd'/>
+<connector signal='+5V' id='294' package='CAT16' element='RN1' name='8' type='smd'/>
+<connector signal='RD-' id='295' package='CAY16' element='RN2' name='1' type='smd'/>
+<connector signal='' id='296' package='CAY16' element='RN2' name='2' type='smd'/>
+<connector signal='' id='297' package='CAY16' element='RN2' name='3' type='smd'/>
+<connector signal='RD+' id='298' package='CAY16' element='RN2' name='4' type='smd'/>
+<connector signal='D+' id='299' package='CAY16' element='RN2' name='5' type='smd'/>
+<connector signal='' id='300' package='CAY16' element='RN2' name='6' type='smd'/>
+<connector signal='' id='301' package='CAY16' element='RN2' name='7' type='smd'/>
+<connector signal='D-' id='302' package='CAY16' element='RN2' name='8' type='smd'/>
+<connector signal='' id='303' package='CAY16' element='RN3' name='1' type='smd'/>
+<connector signal='' id='304' package='CAY16' element='RN3' name='2' type='smd'/>
+<connector signal='+5V' id='305' package='CAY16' element='RN3' name='3' type='smd'/>
+<connector signal='N$2' id='306' package='CAY16' element='RN3' name='4' type='smd'/>
+<connector signal='PB7' id='307' package='CAY16' element='RN3' name='5' type='smd'/>
+<connector signal='N$3' id='308' package='CAY16' element='RN3' name='6' type='smd'/>
+<connector signal='' id='309' package='CAY16' element='RN3' name='7' type='smd'/>
+<connector signal='' id='310' package='CAY16' element='RN3' name='8' type='smd'/>
+<connector signal='PE1' id='311' package='CAY16' element='RN4' name='1' type='smd'/>
+<connector signal='PE0' id='312' package='CAY16' element='RN4' name='2' type='smd'/>
+<connector signal='N$55' id='313' package='CAY16' element='RN4' name='3' type='smd'/>
+<connector signal='N$54' id='314' package='CAY16' element='RN4' name='4' type='smd'/>
+<connector signal='+5V' id='315' package='CAY16' element='RN4' name='5' type='smd'/>
+<connector signal='+5V' id='316' package='CAY16' element='RN4' name='6' type='smd'/>
+<connector signal='M8RXD' id='317' package='CAY16' element='RN4' name='7' type='smd'/>
+<connector signal='M8TXD' id='318' package='CAY16' element='RN4' name='8' type='smd'/>
+<connector signal='+5V' id='319' package='CAT16' element='RN5' name='1' type='smd'/>
+<connector signal='GND' id='320' package='CAT16' element='RN5' name='2' type='smd'/>
+<connector signal='CMP' id='321' package='CAT16' element='RN5' name='3' type='smd'/>
+<connector signal='' id='322' package='CAT16' element='RN5' name='4' type='smd'/>
+<connector signal='' id='323' package='CAT16' element='RN5' name='5' type='smd'/>
+<connector signal='VIN' id='324' package='CAT16' element='RN5' name='6' type='smd'/>
+<connector signal='CMP' id='325' package='CAT16' element='RN5' name='7' type='smd'/>
+<connector signal='RESET2' id='326' package='CAT16' element='RN5' name='8' type='smd'/>
+<connector signal='N$54' id='327' package='CHIP-LED0805' element='RX' name='A' type='smd'/>
+<connector signal='RXL' id='328' package='CHIP-LED0805' element='RX' name='C' type='smd'/>
+<connector signal='USBVCC' id='329' package='SOT-23' element='T2' name='1' type='smd'/>
+<connector signal='+5V' id='330' package='SOT-23' element='T2' name='2' type='smd'/>
+<connector signal='GATE_CMD' id='331' package='SOT-23' element='T2' name='3' type='smd'/>
+<connector signal='N$55' id='332' package='CHIP-LED0805' element='TX' name='A' type='smd'/>
+<connector signal='TXL' id='333' package='CHIP-LED0805' element='TX' name='C' type='smd'/>
+<connector signal='' id='334' package='FIDUCIA-MOUNT' element='U$2' name='P$1' type='smd'/>
+<connector signal='' id='335' package='FIDUCIA-MOUNT' element='U$3' name='P$1' type='smd'/>
+<connector signal='' id='336' package='FIDUCIA-MOUNT' element='U$4' name='P$1' type='smd'/>
+<connector signal='' id='337' package='FIDUCIA-MOUNT' element='U$5' name='P$1' type='smd'/>
+<connector signal='XTAL2' id='379' package='RESONATOR' element='Y1' name='1' type='smd'/>
+<connector signal='GND' id='380' package='RESONATOR' element='Y1' name='2' type='smd'/>
+<connector signal='XTAL1' id='381' package='RESONATOR' element='Y1' name='3' type='smd'/>
+<connector signal='XT2' id='382' package='RESONATOR' element='Y2' name='1' type='smd'/>
+<connector signal='GND' id='383' package='RESONATOR' element='Y2' name='2' type='smd'/>
+<connector signal='XT1' id='384' package='RESONATOR' element='Y2' name='3' type='smd'/>
+<connector signal='USHIELD' id='385' package='CT/CN0603' element='Z1' name='1' type='smd'/>
+<connector signal='D-' id='386' package='CT/CN0603' element='Z1' name='2' type='smd'/>
+<connector signal='USHIELD' id='387' package='CT/CN0603' element='Z2' name='1' type='smd'/>
+<connector signal='D+' id='388' package='CT/CN0603' element='Z2' name='2' type='smd'/>
+</unused>
+</connectors>
+<!-- Add fake-via connectors to change pads to vias for hybrid parts  -->
+<!-- <fake-vias>  -->
+<!--		<connector signal='' id='173' package='1X3_STRIP' element='U$10' name='2' type='pad'/> -->
+<!-- </fake-vias> -->
+<!-- Add buses to connect connectors that don't have matching signal names  -->
+<!-- <buses>  -->
+<!--		<bus>  -->
+<!--			<connector signal='' id='173' package='1X3_STRIP' element='U$10' name='2' type='pad'/>  -->
+<!--			<connector signal='' id='174' package='1X3_STRIP' element='U$10' name='3' type='pad'/>  -->
+<!--			<via signal='N$84' />  -->
+<!--		</bus>  -->
+<!-- </buses>  -->
+</board-params>

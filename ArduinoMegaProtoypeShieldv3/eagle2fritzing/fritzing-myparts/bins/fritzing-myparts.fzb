@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.5.2b.02.18.4756">
+ <title>fritzing-myparts</title>
+ <instances>
+  <instance moduleIdRef="Arduino_MEGA2560_ref">
+   <views>
+    <iconView layer="icon">
+     <geometry y="-1" z="-1" x="-1"/>
+    </iconView>
+   </views>
+  </instance>
+  <instance moduleIdRef="MEGA2560v3ProtoShield">
+   <views>
+    <iconView layer="icon">
+     <geometry y="-1" z="-1" x="-1"/>
+    </iconView>
+   </views>
+  </instance>
+ </instances>
+</module>
